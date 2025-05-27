@@ -1,0 +1,12 @@
+model        = "gpt-4o-mini"
+category_id  = 1
+tags         = ["kids", "fun", "educational"]
+privacy      = "public"
+retry_limit  = 5
+
+prompt = '''
+You are a children-content copywriter. Create an exciting, G-rated YouTube
+title (≤100 chars) and a two‑sentence description (≤400 chars)
+for a video named '{filename}'. Use upbeat language, no hashtags.
+Return exactly two lines: title then description.
+'''
